@@ -17,19 +17,10 @@ timeout = 300
 
 '''首页'''
 
-# @app.route('/')
-# @cache.cached(timeout=timeout)
-# def frontPage():
-#     wc = cloud.Cloud()
-#     wc.popularJobs()
-#     wc.welfareCloud()
-#     sql = mysql.MySql()
-#     num = sql.getLastNum()
-#     avg = sql.getAllAvgSalary()
-#     Max = sql.getMaxSalary()
-#     Min = sql.getMinSalary()
-#     return render_template('index.html', num=num, avg=avg, Max=Max, Min=Min)
-#
+@app.route('/')
+def frontPage():
+    return render_template('login.html')
+
 
 @app.route('/radar')
 @cache.cached(timeout=timeout)
@@ -883,7 +874,7 @@ def forgotPassword():
     return render_template("forgot-password.html")
 
 
-@app.route('/')
+@app.route('/login.html')
 def login():
     return render_template("login.html")
 
