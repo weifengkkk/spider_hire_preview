@@ -1081,7 +1081,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <SourceTextLength>149</SourceTextLength>
     </view>
     <column id="308" parent="284" name="id">
-      <AutoIncrement>2187</AutoIncrement>
+      <AutoIncrement>2186</AutoIncrement>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1137,7 +1137,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="321" parent="285" name="id">
-      <AutoIncrement>251</AutoIncrement>
+      <AutoIncrement>250</AutoIncrement>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1193,7 +1193,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="334" parent="286" name="id">
-      <AutoIncrement>3178</AutoIncrement>
+      <AutoIncrement>3177</AutoIncrement>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1421,7 +1421,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="381" parent="289" name="num">
-      <AutoIncrement>52136</AutoIncrement>
+      <AutoIncrement>52135</AutoIncrement>
       <Comment>编号</Comment>
       <DataType>int unsigned|0s</DataType>
       <NotNull>1</NotNull>
@@ -1741,7 +1741,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="444" parent="293" name="num">
-      <AutoIncrement>52383</AutoIncrement>
+      <AutoIncrement>52382</AutoIncrement>
       <Comment>编号</Comment>
       <DataType>int unsigned|0s</DataType>
       <NotNull>1</NotNull>
@@ -2258,7 +2258,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="546" parent="299" name="num">
-      <AutoIncrement>132117</AutoIncrement>
+      <AutoIncrement>132266</AutoIncrement>
       <Comment>编号</Comment>
       <DataType>int unsigned|0s</DataType>
       <NotNull>1</NotNull>
@@ -2329,7 +2329,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="560" parent="300" name="num">
-      <AutoIncrement>52970</AutoIncrement>
+      <AutoIncrement>52969</AutoIncrement>
       <Comment>编号</Comment>
       <DataType>int unsigned|0s</DataType>
       <NotNull>1</NotNull>
@@ -2396,7 +2396,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="573" parent="301" name="num">
-      <AutoIncrement>7854</AutoIncrement>
+      <AutoIncrement>7853</AutoIncrement>
       <DataType>int unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>

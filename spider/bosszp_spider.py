@@ -14,10 +14,10 @@ class Spider(object):  # 定义一个类，在类之内定义叫方法，在类�
         self.__driver.implicitly_wait(20)
         # 关键词
         self.__keyword = ['c', 'java', 'python', 'web前端', '.net', 'u3d', 'c#', 'c++', '算法', 'ios', 'Android']
-        self.__keyword = ['.net', 'u3d', 'c#', 'c++', '算法', 'ios', 'Android']
-        self.__keyword = ['测试', '运维', '算法', 'ios', 'Android']
-        self.__keyword = ['算法', 'ios', 'Android']
-        self.__keyword = ['Android']
+        # self.__keyword = ['.net', 'u3d', 'c#', 'c++', '算法', 'ios', 'Android']
+        # self.__keyword = ['测试', '运维', '算法', 'ios', 'Android']
+        # self.__keyword = ['算法', 'ios', 'Android']
+        # self.__keyword = ['Android']
 
     def __del__(self):
         # 关闭无头浏览器，减少内存损耗
